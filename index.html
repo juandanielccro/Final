@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trabajo final</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel='stylesheet' href='main.css'>
+</head>
+  <body>
+<nav class="navbar navbar-expand-lg bg-primary"> <!--en esta parte especifica en que medida se expande el nadvar y tambien se especifica el color-->
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar w/ text</a> <!--Es necesario cambiarlo por el logo-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-expanded="false">  <!--se especifica el tipo de boton, la accion al hacer click "collapse", el false es porque indica que mientras no se hace click no se despliega-->
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText"> <!--Vemos que el collpase permite que el menu se despliegue en pantallas de diferentes tamaños-->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!--convierte la lista en una lista ordenada-->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Acerca de</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Detalle de servicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+<section class="container-fluid p-0">
+ <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <div>
+          <article calls="cabeza">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+
+<p>¿Por qué elegirnos?</p>
+<h1>Nuestro valor diferencial</h1>
+<hr>
+
+<main class="container mt-5">
+
+ <section class="row mt-3 g-4 mb-3">
+
+<article class="card col-md-4">
+  
+  <div class="card-body">
+    <h5 class="card-title">Gastronomía Personalizada</h5>
+    <p class="card-text">Diseñamos menús a medida considerando restricciones alimentarias (vegano, celíaco) y la temática exacta de tu evento.</p>
+    
+  </div>
+
+</article>
+
+<article class="card col-md-4">
+  
+  <div class="card-body">
+    <h5 class="card-title">Ingredientes Sostenibles</h5>
+    <p class="card-text">Insumos orgánicos seleccionados directamente de productores locales de confianza para garantizar máxima frescura.</p>
+    
+  </div>
+</article>
+
+<article class="card col-md-4">
+  
+  <div class="card-body">
+    <h5 class="card-title">Servicio Integral VIP</h5>
+    <p class="card-text">Nos encargamos del montaje estético completo, vajilla fina, mantelería de lujo y un staff altamente cualificado.</p>
+    
+  </div>
+
+</article>
+</section>
+</main>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
+   
+
